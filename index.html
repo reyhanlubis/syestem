@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>System Error</title>
+    <style>
+      body {
+        background-color: black;
+        color: #00ff00;
+        font-family: "Courier New", Courier, monospace;
+        font-size: 16px;
+        padding: 20px;
+        overflow: hidden;
+      }
+      #main {
+        animation: glitch 0.1s infinite alternate;
+      }
+      @keyframes glitch {
+        from {
+          transform: translate(0, 0);
+        }
+        to {
+          transform: translate(1px, -1px);
+        }
+      }
+      #final {
+        display: none;
+        text-align: center;
+        font-size: 24px;
+        color: red;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <p>Accessing System files....</p>
+      <p>Injecting firewall...</p>
+      <p>HACKING SYSTEM....🥣🥣🥣🥣🥣🥣🥣 99%</p>
+      <p>ERROR: Virus.exe aktif</p>
+      <p>CRITICAL ERROR! SYSTEM CRASH INCOMING!</p>
+      <p>.........</p>
+    </div>
+    <div id="final">
+      🙏
+      <br />
+      <strong>PRANK BERHASIL!</strong><br />
+      Hendphone Kamu Aman kok,santai aja brooo. <br /><br />
+      😁
+    </div>
+
+    <script>
+      setTimeout(() => {
+        document.body.style.backgroundColor = "#fff";
+        document.body.style.color = "#000";
+        document.getElementById("main").style.display = "none";
+        document.getElementById("final").style.display = "block";
+      }, 7000); // prank selama 1 menit
+    </script>
+    <id></id>
+  </body>
+</html>
